@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thegioi</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body onload="one()">
+     
+        <header>
+            <nav>
+                <div class="nav-list">
+                    <i class='bx bx-chevron-right arrow-right'></i>
+                  <div class="wrapper">
+                    <div class="nav-img">
+                        <img   src="./img/nav1.png" alt="">
+                        <img class="img1" src="./img/nav2.png" alt="">
+                        <img src="./img/nav3.png" alt="">          
+                    </div>
+                  </div>
+                    
+                    <i class='bx bx-chevron-left arrow-left'></i>
+                </div>
+               
+            </nav>
+            <div class="nav-content">
+                <ul class="nav-item">
+                    <li class="nav-item-logo"> <a href="#"><img src="./img/logo.webp" alt=""></a></li>
+                    <li class="nav-item-box"> <a href="#">xem gia ton kho  </a> <p>hai phong</p><i class='bx bxs-down-arrow' ></i>
+
+                    </li> 
+                    <!-- adress-form -->
+                    <div class="adress-form xoa">
+                        <div class="adress-form-content">
+                            <div class="adress-form-header">
+                                <div class="adress-form-infor">
+                                    
+                                        <span>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính  <p>xác thời gian giao hàng</p>  </span> 
+                                    <div class="adress-form-infor-icon"><i class="fa-solid fa-x adress-icon-x"></i>Dong</div>
+                                </div>
+                                <div class="adress-form-search"><i class='bx bx-search'></i><input type="text" placeholder="tim kiem tinh thanh"></div>
+                            </div>
+                            <h2>Hoặc chọn tỉnh, thành phố</h2> 
+                            <ul class="adress-form-list">
+                                 
+                                <li class="active"><a href="#">Hai phong</a></li>
+                                <li><a href="#"> Hà Nội</a></li>
+                                <li><a href="#"> bac lieu</a></li>
+                                <li><a href="#"></a> da nang</li>
+                                <li><a href="#"></a> bac ninh</li>
+                                <li><a href="#"></a> bac kan</li>
+                                <li><a href="#"></a> binh dinh</li>
+                                <li><a href="#"></a> an giang</li>
+                                <li><a href="#"></a> ben tre</li>
+                                <li><a href="#"></a> binh duong</li>
+                                <li><a href="#"></a> ca mau</li>
+                                <li><a href="#"></a> dien bien</li>
+                                <li><a href="#"></a> can tho</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                    <li class="nav-item-input"> <input type="text" placeholder="Ban tim gi"> <i class='bx bx-search bx-rotate-270 nav-search-icon' ></i></li>
+                    <li class="nav-item-box2" > <a href="#"> Lich su Don <br>hang</a></li>
+                    <li class="nav-item-box3"><i class='bx bx-cart' ></i> <a href="#"> Gio Hang</a></li>
+                    <li> <a href="#">24h <br>  Công nghệ</a></li>
+                    <li class="nav-item-dash"> <a href="#">Hỏi Đáp </a></li>
+                    <li> <a href="#">Game App</a></li>
+                </ul>
+                <ul class="nav-footer">
+                    <li> <a href="#"><i class='bx bx-mobile' ></i><span>Điện thoại</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-laptop"></i> <span>Laptop</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-tablet-screen-button"></i> <span>Tablet</span></a></li>
+                    <li class="nav-footer-arrow nav-footer-arrow1"><a href="#"><i class="fa-solid fa-headphones"></i> <span> Phu Kien</span> <i class="fa-solid fa-caret-down nav-arrow"></i>
+                        <div id="nav-child">
+                            <div class="nav-child">
+                                <ul class="nav-child-list"> 
+                                 <li><h4>PHỤ KIỆN DI ĐỘNG</h4></li>
+                                    <li class="nav-child-item"> <a href="#">Sạc dự phòng</a> </li>
+                                    <li class="nav-child-item"><a href="#">Sạc, cáp</a></li>
+                                    <li class="nav-child-item"><a href="#">Ốp lưng điện thoại</a></li>
+                                    <li class="nav-child-item"><a href="#">Ốp lưng máy tính bảng</a></li>
+                                    <li class="nav-child-item"><a href="#">Miếng dán màn hình</a></li>
+                                 </ul>
+                             <ul class="nav-child-list"> 
+                                 <li><h4>PHỤ KIỆN LAPTOP</h4></li>
+                                 <li class="nav-child-item"><a href="#">Chuột Bàn Phím</a></li>
+                                 <li class="nav-child-item"><a href="#">Thiết Bị mạng</a></li>
+                                 <li class="nav-child-item"><a href="#">Camera ,webcam</a></li>
+                                 <li class="nav-child-item"><a href="#">Balo,túi chống sốc</a></li>
+                                 <li class="nav-child-item"><a href="#">giá đã laptop</a></li>
+                          </ul>
+                          <ul class="nav-child-list"> 
+                             <li><h4>THIẾT BỊ NHÀ THÔNG MINH</h4></li>
+                             <li class="nav-child-item"><a href="#">Khóa Điên tử</a></li>
+                             <li class="nav-child-item"><a href="#">TV Box</a></li>
+                             <li class="nav-child-item"><a href="#">Ổ cắm,bóng đèn thông minh</a></li>
+                             <li class="nav-child-item"><a href="#">máy chiếu</a></li>
+                             <li class="nav-child-item"><a href="#"></a></li>
+                      </ul>
+                    
+                            </div>
+                        </div>
+                       
+                    </li>
+
+                    <li><a href="#"> <i class='bx bxs-watch-alt '></i> <span>Smartwatch</span></a></li>
+                    <li><a href="#"><i class='bx bxs-watch'></i> <span>Đồng hồ</span></a></li>
+                    <li class="nav-footer-arrow"><a href="#"><i class="fa-solid fa-computer"></i> <span>Pc,May in</span> <i class="fa-solid fa-caret-down nav-arrow"></i></a>
+                        <div id="nav-child2">
+                            <div class="nav-child2">
+                                <ul class="nav-child-list2"> 
+                                 
+                                    <li class="nav-child-item2"> <a href="#">Máy in</a> </li>
+                                    <li class="nav-child-item2"><a href="#"> Mực in</a></li>
+                                    <li class="nav-child-item2"><a href="#">Màn Hình Máy Tính </a></li>
+                                    <li class="nav-child-item2"><a href="#"> Máy tính Để Bàn</a></li>
+                                     
+                                 </ul>
+                            </div>
+                        </div>
+                       
+                    </li>
+                    <li><a href="#">  <span>Máy cũ giá rẻ</span></a></li>
+                    <li><a href="#">  <span>Sim, Thẻ cào</span></a></li>
+                    <li class="nav-footer-arrow nav-footer-arrow-befor"><a href="#">  <span>Dịch vụ tiện ích</span> <i class="fa-solid fa-caret-down nav-arrow"></i></a>
+                        <div id="nav-child2">
+                            <div class="nav-child2">
+                                <ul class="nav-child-list2"> 
+                                 
+                                    <li class="nav-child-item2"> <a href="#">Đóng tiền trả góp</a> </li>
+                                    <li class="nav-child-item2"><a href="#"> Đóng tiền điện</a></li>
+                                    <li class="nav-child-item2"><a href="#">Đóng tiền Nét PFT</a></li>
+                                    <li class="nav-child-item2"><a href="#">Đóng tiền net,cáp VNPT-</a></li>
+                                     
+                                 </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <content>
+            <div class="box">
+                <div class="banner-big">
+                        <a href="#"> <img src="./img/Banner-Big.jpg" alt=""></a>
+                </div>
+                <div id="slider-head-list">
+                    <div class="slider-head-list">
+                    <i class='bx bx-chevron-left slider-arrow-left'></i>
+                    <div class="slider-head-item">
+                        <div class="slider-head">
+
+                            <div class="slider-img">
+                               <img src="./img/slider-img.gif" alt="">
+                            </div>
+                            <div class="slider-img">
+                               <img src="./img/slider-img1.png" alt="">
+                            </div>
+                            <div class="slider-img">
+                               <img src="./img/slider-img2.png" alt="">
+                            </div>
+                            <div class="slider-img">
+                               <img src="./img/slider-img3.png " alt="">
+                            </div>
+                            <div class="slider-img">
+                               <img src="./img/slider-img4.png" alt="">
+                            </div>
+                            <div class="slider-img">
+                               <img src="./img/slider-img5.png" alt="">
+                            </div>
+                           </div>
+                    </div>
+              
+                   <i onclick="flex()"  class='bx bx-chevron-right slider-arrow-right'></i>
+                  </div>
+                </div>     
+                <div class="content">
+                    <ul class="option-promo">
+                        <li class="option-promo-list">
+                            <img src="./img/option-promo.png" alt=""> <span>Chỉ giảm Online</span>
+                        </li>
+                        <li class="option-promo-list">
+                            <img src="./img/option-promo1.png" alt=""> <span> Đồng giá từ 99k</span>
+                        </li>
+                        <li class="option-promo-list"> 
+                            <img src="./img/option-promo2.png" alt=""> <span>Ngày đẹp <br> Giảm đến 50%</span></li>
+                        <li class="option-promo-list">
+                            <img src="./img/option-promo3.png" alt=""> <span>Doi Diem <br> Giam Deb 3tr</span></li>
+                        </li>
+                    </ul>
+                    <div class="banner-topzone">
+                        <img src="./img/Banner-topzone.png" alt="">
+                    </div>
+                    <div class="hotdeal">
+                        <div class="hotdeal-Banner">
+                            <img src="./img/Banner-dealhot.png" alt="">
+                        </div>
+                        <div class="hotdeal-slider">
+                            <i class='bx bx-chevron-left hotdeal-arrow-left'></i>
+                            <div class="hotdeal-slider-box">
+      <div class="hotdeal-slider-move">
+               <div class="hotdeal-slider-stt">
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img1.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <span>OPPO A96</span>
+                        <p class="hotdeal-price">6.990.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img2.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span>iPhone 13 Pro Max 128GB</span>
+                        <p class="hotdeal-price">28.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(515)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img3.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <!-- <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p> -->
+                        <span> Samsung Galaxy A33 5G</span>
+                        <p class="hotdeal-price"> 7.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >3.4 <i class='bx bxs-star'></i> <span>(58)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img4.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13 price-xiaomi"><img src="./img/icon-price-xiaomi.png" alt=""> <span>Tuan Le XIAOMI</span></p>
+                        <span>POCO C40 </span>
+                        <p class="hotdeal-price"> 2.990.000<span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >4.2<i class='bx bxs-star'></i> <span>(515)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img5.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span>iPhone 13 Pro Max 128GB</span>
+                        <p class="hotdeal-price">28.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(515)</span></p>
+                    </div>
+                </div>
+                 
+                
+               </div>
+               <div class="hotdeal-slider-stt">
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img6.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span> Vivo Y21s 6GB</span>
+                        <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(105)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img7.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span> Samsung Galaxy S22 Ultra 5G  </span>
+                        <p class="hotdeal-price">28.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <!-- <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p> -->
+                        <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(45)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img8.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span> Nokia C21 Plus 64GB</span>
+                        <p class="hotdeal-price">2.890.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img9.jpg" alt="">
+                    <div class="hotdeal-slider-list">
+                        <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span>iPhone 13 Pro Max 128GB</span>
+                        <p class="hotdeal-price">28.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                        <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(515)</span></p>
+                    </div>
+                </div>
+                <div class="hotdeal-slider-img">
+                    <img src="./img/hotdeal-slider-img10.jpg" alt="">
+                    <div class="hotdeal-slider-list  ">
+                        <p class="price-iphone13 price-samsung"><img src="./img/icon-hopqua.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                        <span>Samsung Glaxy Z Flip3 5G 128GB</span>
+                        <p class="hotdeal-price">4.290.000 <span class="hotdeal-price-p">đ</span></p>
+                        <!-- <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p> -->
+                        <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                    </div>
+                </div>
+                 </div>
+                 <div class="hotdeal-slider-stt">
+                    <div class="hotdeal-slider-img">
+                        <img src="./img/hotdeal-slider-img11.jpg" alt="">
+                        <div class="hotdeal-slider-list">
+                            <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                            <span>Realme C11 (2021) 4GB/64GB   </span>
+                            <p class="hotdeal-price">5.290.000 <span class="hotdeal-price-p">đ</span></p>
+                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(45)</span></p>
+                        </div>
+                    </div>
+                    <div class="hotdeal-slider-img">
+                        <img src="./img/hotdeal-slider-img12.jpg" alt="">
+                        <div class="hotdeal-slider-list">
+                            <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                            <span>Samsung Galaxy 4 44mm  </span>
+                            <p class="hotdeal-price">24.290.000 <span class="hotdeal-price-p">đ</span></p>
+                            <!-- <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p> -->
+                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(45)</span></p>
+                        </div>
+                    </div>
+                    <div class="hotdeal-slider-img">
+                        <img class="hotdeal-laptop-img" src="./img/hotdeal-slider-img13.jpg" alt="">
+                        <div class="hotdeal-slider-list">
+                            <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                            <span> BacMacBook Air M1 2020 7-core GPU     </span>
+                            <p class="hotdeal-price">4.890.000 <span class="hotdeal-price-p">đ</span></p>
+                            <p>Qua 300.000 <span class="hotdeal-price-p2">đ</span></p>
+                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                        </div>
+                    </div>
+                    <div class="hotdeal-slider-img">
+                        <img class="hotdeal-laptop-img"  src="./img/hotdeal-slider-img14.jpg" alt="">
+                        <div class="hotdeal-slider-list">
+                            <p class="price-iphone13"><img src="./img/icon-price-iphone13.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                            <span>Acer TraveLMate B3 TMB311 31 P49D</span>
+                            <p class="hotdeal-price">28.290.000 <span class="hotdeal-price-p">đ</span></p>
+                            <p>Qua 300.000 <span class="hotdeal-price-p2">đ</span></p>
+                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(515)</span></p>
+                        </div>
+                    </div>
+                    <div class="hotdeal-slider-img">
+                        <img class="hotdeal-laptop-img"  src="./img/hotdeal-slider-img15.jpg" alt="">
+                        <div class="hotdeal-slider-list  ">
+                            <p class="price-iphone13 price-samsung"><img src="./img/icon-hopqua.png" alt=""> <span>VNPAY GIAM 500k</span></p>
+                            <span> Lenovo ldeaPad 315 LML05</span>
+                            <p class="hotdeal-price">9.290.000 <span class="hotdeal-price-p">đ</span></p>
+                            <!-- <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p> -->
+                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(515)</span></p>
+                        </div>
+                    </div>
+                     </div>
+                    
+    
+                    </div>
+   
+                     <!-- <div class="hotdeal-slider-img">
+                     <img src="./img/hotdeal-slider-img2.jpg" alt="">
+                    </div> -->
+                            </div>
+                            
+                            <i class='bx bx-chevron-right hotdeal-arrow-right'></i>
+                        </div>
+                       <div id="hotdeal-btn">
+                        <div class="hotdeal-btn">
+                            <button><span>xem tat ca </span><i class='bx bxs-right-arrow'></i></button>
+                        </div>
+                       </div>
+                       
+                    </div>
+                    <div class="promo-xiaomi">
+                        <div class="promo-xiaomi-list">
+                            <h2>TUẦN LỄ XIAOMI</h2>
+                        </div>
+                        <div class="slider-xiaomi">
+                            <i class='bx bx-chevron-left xiaomi-arrow-left'></i>
+                            <div class="slider-xiaom-list">
+                                <div class="slider-xiaom-item">
+                                    <div class="slider-xiaomi-stt">
+                                        <img src="./img/slider-xiaomi-img.png" alt="">
+                                        <img src="./img/slider-xiaomi-img1.png" alt="">
+                                        <img src="./img/slider-xiaomi-img2.png" alt="">
+                                    </div>
+                                    <div class="slider-xiaomi-stt">
+                                        <img src="./img/slider-xiaomi-img3.png" alt="">
+                                        <img src="./img/slider-xiaomi-img4.png" alt="">
+                                        <img src="./img/slider-xiaomi-img5.png" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            
+                            <i onclick="flex1()"  class='bx bx-chevron-right xiaomi-arrow-right'></i>
+                        </div>
+                       <div class="listproduct">
+                        <i class='bx bx-chevron-left listproduct-arrow-left'></i>
+                        <div class="listproduct-box">
+                            <div class="listproduct-over">
+                                <div class="listproduct-stt">
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img6.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Samsung Galaxy Watch5 Pro LTE 45mm day</span>
+                                            <p class="hotdeal-price">12.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua khung len den 3.000.000<span class="hotdeal-price-p2"></span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img7.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>POCO C49</span>
+                                            <p class="hotdeal-price">10.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua len den 1.99 trieu <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img8.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Vivo Y21s 6GB</span>
+                                            <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img9.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Samsung Galaxy S22 Ultra 5GB 256GB</span>
+                                            <p class="hotdeal-price">28.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.9 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img10.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>NOkia C21 Plus 64GB</span>
+                                            <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.7 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>        
+                                   </div>
+                                <div class="listproduct-stt">
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img1.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Samsung Galaxy ZFold4 256GB</span>
+                                            <p class="hotdeal-price">40.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua  PMH 3.5 trieu<span class="hotdeal-price-p2"></span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img2.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>OPPO Reno8 Z 5G</span>
+                                            <p class="hotdeal-price">10.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua len den 1.99 trieu <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img3.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>iPhone 13 Pro Max 128GB </span>
+                                            <p class="hotdeal-price">28.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img4.jpg" alt="">
+                                        <div class="hotdeal-slider-list">
+                                            <span>Samsung Galaxy A33 5G</span>
+                                            <p class="hotdeal-price">6.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img5.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>OPPO A55</span>
+                                            <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.7 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>        
+                                   </div>
+
+                                   <div class="listproduct-stt">
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img6.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Samsung Galaxy Watch5 Pro LTE 45mm day</span>
+                                            <p class="hotdeal-price">12.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua khung len den 3.000.000<span class="hotdeal-price-p2"></span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img7.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>POCO C49</span>
+                                            <p class="hotdeal-price">10.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua len den 1.99 trieu <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img8.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Vivo Y21s 6GB</span>
+                                            <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >4.5 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img9.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>Samsung Galaxy S22 Ultra 5GB 256GB</span>
+                                            <p class="hotdeal-price">28.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.9 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="listproduct-img">
+                                        <img src="./img/listproduct-img10.jpg" alt="">
+                                        <div class="listproduct-list">
+                                            <span>NOkia C21 Plus 64GB</span>
+                                            <p class="hotdeal-price">4.990.000 <span class="hotdeal-price-p">đ</span></p>
+                                            <p>Qua 360.000 <span class="hotdeal-price-p2">đ</span></p>
+                                            <p class="hotdeal-star" >3.7 <i class='bx bxs-star'></i> <span>(15)</span></p>
+                                        </div>
+                                    </div>        
+                                   </div>
+                            </div>
+                           
+                                    
+                        </div>
+                        <i class='bx bx-chevron-right listproduct-arrow-right'></i>
+                       </div>
+                       <div id="hotdeal-btn">
+                        <div class="hotdeal-btn">
+                            <button><span>xem tat ca </span><i class='bx bxs-right-arrow'></i></button>
+                        </div>
+                       </div>
+                        
+                    </div>
+                    <!-- shopping-trends -->
+                    <div class="shopping-trends">
+                        <h2>XU HƯỚNG MUA SẮM</h2>
+                        <div class="shopping-trends-list">
+                            <div class="shopping-trends-item">
+                                <img src="./img/shopping-trends-img.png" alt="">
+                                <div class="shopping-trends-item-data">
+                                    <p>dien thoai</p>
+                                    <p>Galaxy Z Fold4 | Filp4</p>
+                                </div>
+                                 
+                            </div>
+                            <div class="shopping-trends-item">
+                                <img src="./img/shopping-trends-img1.png" alt="">
+                                <div class="shopping-trends-item-data">
+                                    <p>dien thoai</p>
+                                    <p>Galaxy Z Fold4 | Filp4</p>
+                                </div>
+                            </div>
+                            <div class="shopping-trends-item">
+                                <img src="./img/shopping-trends-img2.png" alt="">
+                                <div class="shopping-trends-item-data">
+                                    <p>dien thoai</p>
+                                    <p>Galaxy Z Fold4 | Filp4</p>
+                                </div>
+                            </div>
+                            <div class="shopping-trends-item">
+                                <img src="./img/shopping-trends-img3.png" alt="">
+                                <div class="shopping-trends-item-data">
+                                    <p>dien thoai</p>
+                                    <p>Galaxy Z Fold4 | Filp4</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- category -->
+                    <div class="category">
+                         <h2>DANH MỤC NỔI BẬT</h2>
+                         <div class="category-list">
+                            <div class="category-list-item">
+                                   <img src="./img/category1.png" alt="">
+                                   <p>Điện thoại </p>
+                            </div>
+                         
+
+                            <div class="category-list-item">
+                                   <img src="./img/category2.png" alt="">
+                                   <p>Laptop</p>
+                            </div>
+                        
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category3.png" alt="">
+                                   <p>Tablet</p>
+                            </div>
+                            
+                                <div class="category-list-item">
+                                       <img src="./img/category4.png" alt="">
+                                       <p>Đồng hồ thông minh</p>
+                                </div>
+                             
+                              
+                                <div class="category-list-item">
+                                       <img src="./img/category1.png" alt="">
+                                       <p>Điện thoại </p>
+                                </div>
+                              
+                            <div class="category-list-item">
+                                   <img src="./img/category5.png" alt="">
+                                   <p>Đồng hồ thời trang </p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category6.png" alt="">
+                                   <p>  Thiết bị mạng </p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category7.png" alt="">
+                                   <p>Ốp lưng</p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category8.png" alt="">
+                                   <p>  Chuột máy tính </p>
+                            </div>
+                        
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category9.png" alt="">
+                                   <p>Bàn phím</p>
+                            </div>
+                        
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category10.png" alt="">
+                                   <p> Sim, thẻ cào </p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category11.png" alt="">
+                                   <p> Loa</p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category12.png" alt="">
+                                   <p>  Tai nghe </p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category14.png" alt="">
+                                   <p>Sạc dự phòng
+                                    </p>
+                            </div>
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category15.png" alt="">
+                                   <p> Cáp sạc </p>
+                            </div>
+                          
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category16.png" alt="">
+                                   <p> Máy tính bộ
+                                    </p>
+                            </div>
+                        
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category17.png" alt="">
+                                   <p>  Máy in</p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category18.png" alt="">
+                                   <p>Màn hình máy tính </p>
+                            </div>
+                        
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category19.png" alt="">
+                                   <p>  Phụ kiện gaming
+                                    Phụ kiện</p>
+                            </div>
+                         
+                         
+                            <div class="category-list-item">
+                                   <img src="./img/category20.png" alt="">
+                                   <p> Camera, webcam</p>
+                            </div>
+                        
+                         
+                         
+                    </div>
+                 </div>
+                 <div class="showPromoteBHX">
+                    <div class="showPromoteBHX-nav">
+                        <div class="showPromoteBHX-nav-item">
+                             <span class="thongbao">
+                                <span class="thongbao-item"></span>
+                             </span>
+                            <img class="logoBHX" src="./img/logoBHX.png" alt="">
+                            <span class="showPromoteBHX-color">FREESHIP cho đơn hàng từ 300.000đ </span>
+                            <span class="">(Đây là khuyến mãi của website cùng tập đoàn MWG)</span>
+                        </div>
+                        <div class="showPromoteBHX-nav-item">
+                            <p>Xem thêm 10.000+ <br>
+                                sản phẩm khuyến mãi
+                            </p>
+                            <i class='bx bx-left-arrow-circle bx-rotate-180' ></i>
+                           </div>
+                    </div>
+                    <div class="showPromoteBHX-content">
+                        <div class="showPromoteBHX-content-item">
+                            <form id="form-showPromoteBHX" action="">
+                                <div class="showPromoteBHX-content-item-1">
+                                    <span>Tặng thêm mã giảm 10%</span>
+                                    <input   id="showPromoteEmail" type="email" placeholder="Nhập email">
+                                    <input id="showPromoteSDT" type="text" placeholder="Nhập SĐT*">
+                                     <button type="submit">NHẬN MÃ</button>
+                                     <div class="checkShowPromoteBHX"></div>
+                                     <p> *Áp dụng cho khách lần đầu mua hàng tại BachhoaXANH</p>
+                                     <div class="voucher-success open">
+                                        <i class='bx bxs-check-circle'></i>
+                                        <div>Mã giảm 10%</div>
+                                        <div class="voucher-success-item">Được gửi đến mail tranduc237233@gmail.com</div>
+                                         <div class="voucher-success-item2">Chỉ sử dụng cho số 0989244802</div>
+                                    </div>
+                                    </div>
+                                
+
+                            </form>
+                                
+                        </div>
+                        <div class="showPromoteBHX-content-item">
+                               <img src="./img/showPromoteBHX-content-item-img1.jpg" alt="">
+                        </div>
+                        <div class="showPromoteBHX-content-item">
+                            <img src="./img/showPromoteBHX-content-item-img2.jpg" alt="">
+                     </div>
+                     <div class="showPromoteBHX-content-item">
+                        <img src="./img/showPromoteBHX-content-item-img3.jpg" alt="">
+                 </div>
+                 <div class="showPromoteBHX-content-item">
+                    <img src="./img/showPromoteBHX-content-item-img4.png" alt="">
+             </div>
+             <div class="showPromoteBHX-content-item">
+                <img src="./img/showPromoteBHX-content-item-img5.png" alt="">
+         </div>
+                    </div>
+                 </div>
+                 
+                
+            </div>
+             
+        </content>
+        <!-- box -->
+    <!-- </div> -->
+    <footer>
+        <div class="footer">
+            <div class="footer-list">
+                <span>
+                    Tích điểm Quà tặng VIP
+                </span> <br>
+                 <span>Lịch sử mua hàng </span> <br>
+                 <span> Cộng tác bán hàng cùng TGDĐ    </span> <br>
+                 <span>Tìm hiểu về mua trả góp</span> <br>
+                 <span>Chính sách bảo hành</span> <br>
+                 <p>Xem thêm</p> <br>
+            </div>
+            <div class="footer-list">
+                <span> Giới thiệu công ty (MWG.vn) </span> <br>
+                 <span>Tuyển dụng </span> <br> 
+                 <span> Gửi góp ý, khiếu nại </span> <br>
+                 <span>Tìm siêu thị (3.266 shop)</span> <br>
+                 <span>Xem bản mobile</span> <br>
+            </div>
+            <div class="footer-list">
+                <h3>Tổng đài hỗ trợ (Miễn phí gọi) </h3>
+                 <span>Gọi mua:  <a href="tel:1800.1060">1800.1060 </a> (7:30 - 22:00)</span> <br>
+                 <span>Kỹ thuật:   <a href="tel:1800.1763">1800.1763</a>(7:30 - 22:00) </span> <br>
+                 <span>Khiếu nại: <a href="tel:1800.1062">1800.1062</a>  (8:00 - 21:30)</span> <br>
+                 <span>Bảo hành:  <a href="tel:1800.1064">1800.1064</a>  (8:00 - 21:00)</span> <br>
+            </div>
+         
+         
+     
+      <div class="footer-list">
+        <div class="footer-list-icon">
+          <span><i class='bx bxl-facebook-circle icon-fb'></i> <a href="">3753.8k Fan </a>    </span>   
+          <span>  <i class='bx bxl-youtube icon-ytb'></i> <a href="#">848k Đăng ký</a></span>   
+        </div>
+        <div class="footer-list-logo">
+            <img src="./img/footer-img1.png" alt="">
+            <img src="./img/footer-img2.png" alt="">
+        </div>
+        <span>Website cùng tập đoàn</span>
+        <div class="footer-list-sp">
+            <img src="./img/logo-bachhoaxanh.png" alt="">
+            <img src="./img/logo-dienmayxanh.png" alt="">
+            <img src="./img/logo-ava.png" alt="">
+            <img src="./img/logo-nhathuocankhang.png" alt="">
+           
+        </div>
+      </div>
+            </div>
+        
+       <div class="footer-end">
+        <span> © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.
+            Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 028 38125960. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Huỳnh Văn Tốt <a href="#"> Xem chính sách sử dụng  </a></span>
+       </div>
+        
+     </footer>
+     <div class="messages">
+        <i class='bx bxs-message-rounded-dots' ></i>
+      </div>
+    <div class="massages-form xoa">
+        <form id="form" action="">
+            <div class="massages-form-list">
+                <div class="massages-form-nav">
+                    <p class="massages-x">  <i class='bx bx-x bx-rotate-270' ></i> <span>Dong</span></p>
+                   
+                </div>
+                <div class="massages-form-logo">
+                    <img src="./img/logo-chon-the-gioi-di-dong.webp" alt=""> 
+                    <span>Xin chào mừng quý khách đến với hỗ trợ trực tuyến!</span>
+                </div>
+                <div class="massages-form-item">
+                    <div class="massages-form-input">
+                        <span>Quý khách muốn xưng hô là :*</span>
+                        <span>
+                            <!-- <input type="text" placeholder="Chọn cách xưng hô với quý khách"> -->
+                            <select class="massages-select">
+                                <option value="Chọn cách xưng hô với quý khách">Chọn cách xưng hô với quý khách</option>
+                                <option value="Anh">Anh</option>
+                                <option value="Chi">Chi</option>
+                            </select>
+                            <!-- <i class='bx bxs-chevron-down'></i> -->
+                        </span>
+                         <p></p>
+                    </div>
+                    <div class="massages-form-input">
+                        <span>Tên của quý khách là*</span>
+                        <input id="username" type="text" placeholder="Nhập tên của quý khách">
+                         <small class="check-error"></small>
+                    </div>
+                    <div class="massages-form-input">
+                        <span>Số điện thoại của quý khách là*</span>
+                            
+                             <input id="phone" type="text" placeholder="Nhập số điện thoại của quý khách"> 
+                            <small class="check-error"></small>
+                    </div>
+                    <div class="massages-form-check">   
+                        <input id="checkbox" type="checkbox" checked="checked"> 
+                        <p>Bằng việc chọn Bắt đầu chat, quý khách đã đồng ý với các <a href="#"> Điều khoản của Thegioididong.com</a></p>
+                    </div>
+                    <div class="massages-form-btn">
+                         <button type="submit"> Bắt đầu chat</button>
+                         
+                    </div>
+                </div>
+                  
+            </div>
+        </form>
+    </div>
+    <div class="translate-web">
+        <a onclick="translates()" href="./web-phu.html"></a>
+    </div>
+    <div class="loatAll an">
+        
+            <div class="loat">
+        
+            </div>
+         
+         
+    </div>
+     
+   <script src="./index.js"></script>
+</body>
+</html>
